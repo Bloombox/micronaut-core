@@ -11,6 +11,7 @@ dependencies {
     compile project(":validation")
     compile project(":runtime")
 
+    compile "it.unimi.dsi:dsiutils:$dsiUtilVersion"
 
     jmh 'org.openjdk.jmh:jmh-core:1.21'
     jmh 'org.openjdk.jmh:jmh-generator-annprocess:1.21'
